@@ -32,6 +32,11 @@
         <version>4.1.118.Final</version>
       </dependency>
       <dependency>
+        <groupId>io.netty</groupId>
+        <artifactId>netty-common</artifactId>
+        <version>4.1.118.Final</version>
+      </dependency>
+      <dependency>
         <groupId>com.google.protobuf</groupId>
         <artifactId>protobuf-java</artifactId>
         <version>3.25.5</version>
@@ -41,6 +46,8 @@
         <artifactId>graphql-java</artifactId>
         <version>21.5</version>
       </dependency>
+
+
 
       <dependency>
         <groupId>org.junit</groupId>
