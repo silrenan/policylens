@@ -1,0 +1,42 @@
+# Builds
+# Quarkus specific
+.quarkus/
+.quarkus-profile-*
+# Maven / Gradle
+target/
+build/
+*.iml
+*.ipr
+*.iws
+.idea/
+*.class
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+# VSCode
+.vscode/
+# Eclipse
+.project
+.classpath
+.settings/
+# IntelliJ
+out/
+
+# Tests
+# Test reports
+surefire-reports/
+failsafe-reports/
+
+# ENV
+# Local env files
+.env
+.env.*
+# Others
+node_modules/
+.github/
